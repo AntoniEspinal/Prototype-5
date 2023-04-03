@@ -34,7 +34,7 @@ public class GameManager : MonoBehaviour
         score = 0;
         UpdateScore(0);
         isGameActive = true;
-        titleScreen.gameObject.SetActive(false);
+        titleScreen.SetActive(false);
         spawnRate /= difficulty;
     }
 
